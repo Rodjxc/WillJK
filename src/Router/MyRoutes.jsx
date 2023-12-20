@@ -1,24 +1,28 @@
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import {Navbar} from "../../Components/Navbar/Navbar"
+import {Home} from "../../Components/Home/Home";
+import "./myroutes.css"
 
 export const MyRoutes = () => {
   return (
-    <div>
+    <div className="layout">
       <BrowserRouter>
         {/*   HEADER AND NAVIGATION */}
-      <Navbar />
+        <div className="navbar">   
+           <Navbar />
+        </div>
 
         {/*   MAIN CONTENT */}
         <section className="content">
           <Routes>
             <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />}></Route>
-            <Route path="/portfolio" element={<Portfolio />}></Route>
+             <Route path="/tattoo" element=""></Route>
             {/* <Route path="/servicios" element={<Servicios />}></Route> */}
-            <Route path="/CV" element={<CV />}></Route>
+            <Route path="/art" element=""></Route>
             {/* <Route path="/contact" element={<Contact />}></Route> */}
-            <Route path="/project/:id" element={<Project />}></Route>
-
+            <Route path="/project/:id" element=""></Route>
+              
             <Route
               path="*"
               element={
@@ -34,9 +38,7 @@ export const MyRoutes = () => {
         </section>
 
         {/*   FOOTER  */}
-        <Footer />
       </BrowserRouter>
     </div>
   )
 }
-

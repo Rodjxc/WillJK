@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+  }
+  
+  .layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .navbar {
+    width: 33%;
+  }
+  
+  .content {
+    width: 100%;
+    background-color: rgb(42, 45, 45);
+  }
+  
+  

@@ -1,0 +1,42 @@
+* {
+    color: white;
+}
+
+.navbar {
+    background-color: #660707;
+    padding-top: 45px;
+    padding-left: 45px;
+    }
+    
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+p {
+    font-size: smaller;
+}
+    
+.logo h3 {
+    font-size: 30px;
+}
+ul li {
+list-style: none;
+}
+
+li {
+    margin-bottom: 7%;
+    margin-top: 10%;
+    font-size: x-large;
+    margin-left: -40px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    transform: scale(1.50) !important;
+    transition: transform 0.3s ease;
+}
