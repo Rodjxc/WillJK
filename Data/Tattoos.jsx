@@ -13,6 +13,26 @@ export const Tattoos = [
         id: "hebi",
         name: "🐍蛇 Hebi and 菊 kiku🌸",
         technique: "machine"
-    }
+    },
+    {
+        id: "dragoncolor",
+        name: "Baku",
+        technique: "machine"
+    },
+    {
+        id: "kitsune",
+        name: "Kitsune",
+        technique: "machine"
+    },
+    {
+        id: "mono",
+        name: "Mono",
+        technique: "machine"
+    },
+    {
+        id: "tigre",
+        name: "Tigre",
+        technique: "machine"
+    },
         
 ]
