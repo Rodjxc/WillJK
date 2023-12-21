@@ -3,24 +3,33 @@
 }
 
 .navbar {
-    background-color: #660707;
+    background: rgb(102,7,7);
+    background: linear-gradient(318deg, rgb(61, 1, 1) 0%, rgb(216, 52, 52) 100%);
     padding-top: 45px;
     padding-left: 45px;
+    position: sticky;
     }
     
 
 img {
-    height: 180px;
-    width: 180px;
+    height: 135px;
+    width: 135px;
 }
 
 p {
     font-size: smaller;
+    margin-top: -20px;
+    margin-bottom: 70px;
 }
     
 .logo h3 {
     font-size: 30px;
 }
+
+.logo-japo {
+    margin-top: -30px;
+}
+
 ul li {
 list-style: none;
 }
@@ -39,4 +48,8 @@ li a {
 li a:hover {
     transform: scale(1.50) !important;
     transition: transform 0.3s ease;
+}
+
+.icon {
+   margin-top: 60px;
 }

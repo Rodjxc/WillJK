@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 
 
 export const Navbar = () => {
@@ -19,8 +21,8 @@ export const Navbar = () => {
          
       <nav>
         <div className="logo">
-          <h3>William JK</h3>
-          <h3>彫ウィル</h3>
+          <h3 className='logo-willliam'>William JK </h3>
+          <h3 className='logo-japo'>彫ウィル</h3>
           <p>Oslo based tattoo artist</p>
         </div>
         <div className='links'>
@@ -51,6 +53,11 @@ export const Navbar = () => {
           </li>
         </ul>
         </div>
+        <div className="icon">
+              <a  href="https://www.instagram.com/williamjuaska.tattoo/" target="blank">
+              <FontAwesomeIcon icon={faSquareInstagram} size="3x"/>
+               </a>
+          </div>
         
       </nav>
     </div>
